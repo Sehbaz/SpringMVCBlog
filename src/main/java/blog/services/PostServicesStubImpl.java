@@ -19,7 +19,7 @@ public class PostServicesStubImpl implements PostServices {
 
 	@Override
 	public List<Post> findAll() {
-		return null;
+		return this.posts;
 	}
 
 	@Override
