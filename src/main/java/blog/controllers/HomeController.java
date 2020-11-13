@@ -9,4 +9,8 @@ public class HomeController {
     public String index(){
         return "index";
     }
+    public HomeController() {
+        System.out.println("*** HomeController ***");
+    }
+
 }
